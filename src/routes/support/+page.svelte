@@ -1,6 +1,8 @@
 <script>
   import Navbar from '../../lib/components/navbar/Navbar.svelte';
   import Maintenance from '../../lib/components/maintenance/Maintenance.svelte';
+  import Footer from "$lib/components/footer/Footer.svelte";
+
   import "../../app.css";
 </script>
 
@@ -12,3 +14,4 @@
 
 <Navbar />
 <Maintenance />
+<Footer />

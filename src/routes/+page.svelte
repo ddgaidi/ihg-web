@@ -2,6 +2,7 @@
   import Navbar from '../lib/components/navbar/Navbar.svelte';
   import TopJeux from '../lib/components/accueil/topjeux/TopJeux.svelte';
   import Presentation from "$lib/components/accueil/presentation/Presentation.svelte";
+  import Footer from "$lib/components/footer/Footer.svelte";
   import "../app.css";
 </script>
 
@@ -14,3 +15,4 @@
 <Navbar />
 <TopJeux />
 <Presentation />
+<Footer />

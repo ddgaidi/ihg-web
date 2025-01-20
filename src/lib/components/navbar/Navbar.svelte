@@ -78,7 +78,7 @@
   });
 </script>
 
-<div class="flex absolute justify-between w-screen items-center z-10 bg-[#454599] dark:bg-[#0c0c1c] py-2 px-8 transition-all duration-300" id="navbar-container">
+<div class="flex fixed justify-between w-screen items-center z-10 bg-[#454599] dark:bg-[#0c0c1c] py-2 px-8 transition-all duration-300" id="navbar-container">
   <!-- Logo -->
   <div class="ml-12" id="icon-container">
     <img src={icon} alt="Logo" class="w-16 hover:scale-110 transition-transform duration-300" />
@@ -144,7 +144,7 @@
     </button>
 
     <!-- Modal -->
-    <div id="settings-modal" bind:this={settingsModal} class="fixed -left-[32px] inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-md hidden">
+    <div id="settings-modal" bind:this={settingsModal} class="fixed -left-[32px] inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm hidden">
       <div class="flex-col justify-center items-center bg-[#f0f0ff] dark:bg-[#191936] w-[500px] rounded-lg p-5 transition-all duration-300">
         <div class="flex justify-between items-center mb-4">
           <h1 class="uppercase text-xl font-bold text-purple-900 dark:text-purple-400 transition-all duration-300 uppercase">paramètres :</h1>
