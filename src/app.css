@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --scrollbar-track: #d5d5f1;
+    --scrollbar-thumb: linear-gradient(45deg, #8558f2, #00c599); /* Dégradé bleu-rose */
+    --scrollbar-thumb-hover: linear-gradient(45deg, #6e43d6, #01a17d); /* Dégradé sombre pour hover */
+}
+
+/* Couleurs pour le mode sombre */
+body.dark {
+    --scrollbar-track: #0f0f22;
+    --scrollbar-thumb: linear-gradient(45deg, #8558f2, #00c599); /* Dégradé bleu-rose */
+    --scrollbar-thumb-hover: linear-gradient(45deg, #9e7af8, #29eabf); /* Dégradé sombre pour hover */
+}
+
+/* Barre de défilement */
+body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track); /* Couleur de la piste */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb); /* Dégradé de la barre */
+    transition: background-color 0.3s ease, filter 0.3s ease;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover); /* Couleur ajustée pour hover */
+}
+
+body {
+    overflow-x:hidden;
+}

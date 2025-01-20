@@ -11,7 +11,7 @@
     }
 </script>
 
-<div class="flex flex-col justify-center items-center bg-[#f0f0ff] dark:bg-[#191936] py-10 transition-all duration-300" id="topjeux-container">
+<div class="flex flex-col justify-center items-center bg-[#f0f0ff] dark:bg-[#191936] pt-28 transition-all duration-300" id="topjeux-container">
 
     <div class="flex flex-col justify-center items-center mb-10" id="title-container">
         <h1 class="uppercase text-4xl font-black text-transparent bg-clip-text bg-gradient-to-l from-[#8558f2] to-[#00c599] transition-all duration-300" id="titre">{ $language === 'Français' ? 'jeux en vedettes' : 'featured games' }</h1>
@@ -24,7 +24,7 @@
             <img src={jeu1} alt="TwistyTails" on:contextmenu={handleRightClick} draggable="false" class="w-[300px] rounded-2xl brightness-[20%] group-hover:scale-105 group-hover:brightness-100 transition-all duration-300">
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white group-hover:hidden transition-all duration-300">
                 <h3 class="uppercase text-xl font-bold" id="nom">Twisty Tails</h3>
-                <h4 id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
+                <h4 class="text-sm font-normal" id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
             </div>
         </div>
 
@@ -32,7 +32,7 @@
             <img src={jeu2} alt="Masques&Crocs" on:contextmenu={handleRightClick} draggable="false" class="w-[300px] rounded-2xl brightness-[20%] group-hover:scale-105 group-hover:brightness-100 transition-all duration-300">
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white group-hover:hidden transition-all duration-300">
                 <h3 class="uppercase text-xl font-bold" id="nom">{ $language === 'Français' ? 'Masques & Crocs' : 'Masks and Fangs' }</h3>
-                <h4 id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
+                <h4 class="text-sm font-normal" id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
             </div>
         </div>
 
@@ -40,7 +40,7 @@
             <img src={jeu3} alt="Mysterious" on:contextmenu={handleRightClick} draggable="false" class="w-[300px] rounded-2xl brightness-[20%] group-hover:scale-105 group-hover:brightness-100 transition-all duration-300">
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white group-hover:hidden transition-all duration-300">
                 <h3 class="uppercase text-xl font-bold" id="nom">Mysterious</h3>
-                <h4 id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
+                <h4 class="text-sm font-normal" id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
             </div>
         </div>
 

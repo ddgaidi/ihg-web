@@ -78,7 +78,7 @@
   });
 </script>
 
-<div class="flex justify-between items-center z-10 bg-[#454599] dark:bg-[#0c0c1c] py-2 px-8 transition-all duration-300" id="navbar-container">
+<div class="flex absolute justify-between w-screen items-center z-10 bg-[#454599] dark:bg-[#0c0c1c] py-2 px-8 transition-all duration-300" id="navbar-container">
   <!-- Logo -->
   <div class="ml-12" id="icon-container">
     <img src={icon} alt="Logo" class="w-16 hover:scale-110 transition-transform duration-300" />
