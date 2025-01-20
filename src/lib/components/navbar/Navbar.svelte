@@ -147,7 +147,7 @@
     <div id="settings-modal" bind:this={settingsModal} class="fixed -left-[32px] inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-md hidden">
       <div class="flex-col justify-center items-center bg-[#f0f0ff] dark:bg-[#191936] w-[500px] rounded-lg p-5 transition-all duration-300">
         <div class="flex justify-between items-center mb-4">
-          <h1 class="uppercase text-xl font-bold text-purple-900 dark:text-purple-400 transition-all duration-300">PARAMETRES :</h1>
+          <h1 class="uppercase text-xl font-bold text-purple-900 dark:text-purple-400 transition-all duration-300 uppercase">paramètres :</h1>
           <button class="hover:rotate-90 transition-all duration-300" on:click={closeModal}>✖</button>
         </div>
         <div class="flex flex-col space-y-4">

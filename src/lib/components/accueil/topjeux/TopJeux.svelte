@@ -31,7 +31,7 @@
         <div class="relative group" id="jeu-container">
             <img src={jeu2} alt="Masques&Crocs" on:contextmenu={handleRightClick} draggable="false" class="w-[300px] rounded-2xl brightness-[20%] group-hover:scale-105 group-hover:brightness-100 transition-all duration-300">
             <div class="absolute inset-0 flex flex-col items-center justify-center text-white group-hover:hidden transition-all duration-300">
-                <h3 class="uppercase text-xl font-bold" id="nom">{ $language === 'Français' ? 'Masques & Crocs' : 'Masks and Fangs' }</h3>
+                <h3 class="uppercase text-xl font-bold" id="nom">{ $language === 'Français' ? 'Masques & Crocs' : 'Masks & Fangs' }</h3>
                 <h4 class="text-sm font-normal" id="date">{ $language === 'Français' ? 'Prochainement...' : 'Soon...' }</h4>
             </div>
         </div>
